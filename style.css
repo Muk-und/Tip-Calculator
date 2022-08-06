@@ -1,0 +1,166 @@
+/*
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-image:url(https://images.pexels.com/photos/1310777/pexels-photo-1310777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.pappa{
+        background: inherit;
+        width: 250px;
+        height: 350px;
+        position: absolute;
+}
+.pappa:before{
+    content: “ ”;
+    background: inherit; 
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0; 
+    bottom: 0;
+    box-shadow: inset 0 0 0 3000px rgba(255,255,255,0.3);
+    filter: blur(10px);
+   }
+*/
+* {
+    font-family: 'M PLUS Rounded 1c', Avenir Next, Helvetica, sans-serif;
+    /* margin: 0; */
+    /* padding: 0; */
+    color: white;
+  }
+body {
+        height: 660px;
+      }
+      body {
+        background-image: url(https://images.pexels.com/photos/1310777/pexels-photo-1310777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+.pappa{
+    height:400px;
+    width: 400px;
+    background: inherit;
+    border-radius: 15px;
+    border: 2px solid rgba(43, 43, 43, 0.568);
+    position: absolute;
+    overflow: hidden;
+}
+.pappa:before {
+    position: absolute;
+        content: '';
+        background: inherit;
+        height: 450px;
+        width: 650px;
+        left: -25px;
+        right: 0;
+        top: -25px;
+        bottom: 0;
+        box-shadow: inset 0 0 0 3000px rgba(150, 150, 150, 0.192);
+        filter: blur(10px);
+        border-radius: 15px;
+  }
+.maincontainer{
+    position: absolute;
+}
+.maincontainer {
+    height: 900px;
+    width: 360px;
+    color: white;
+    /* background: #272639; */
+    border-radius: 5px;
+    padding: 1.2rem;
+    margin-top: 40px;
+  }
+#topContainer {
+    margin-top: 4rem;
+  }
+.container {
+    margin-top: 0.1rem;
+  }
+  .title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0.4rem;
+    margin-top: 10px;
+  }
+  .datacontainer {
+    /* background: #353959; */
+    font-size: 20px;
+    border-radius: 1.4rem;
+    padding: 0 0.8rem;
+    display: flex;
+    align-items: center;
+  }
+  #billTotalInput,
+  #tipInput {
+    font-size: 1.2rem;
+    background: white;
+    color: black;
+    border: 1px solid black;
+    outline: 1px solid black;
+    width: 200px;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  .buttonContainer {
+    background: #8990ec;
+    display: grid;
+    
+    place-items: center;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+  }
+  .splitButton {
+    background: none;
+    border: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: grid;
+    place-items: center;
+  }
+  
+  .controls {
+    display: flex;
+    align-items: center;
+  }
+  .buttonText {
+    color: #fdfdfd !important;
+    font-size: large;
+  }
+  #people{
+    margin-top: 24px;
+  }
+  #minus{
+    color: #fdfdfd !important;
+    font-size:large;
+  }
+  .splitAmount {
+    font-size: 1.6rem;
+    margin: 0.8rem;
+  }
+  #bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .totalContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  
+  .total {
+    font-size: 2rem;
+  }
+  
